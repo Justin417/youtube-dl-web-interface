@@ -10,7 +10,7 @@ This script allows you to download songs from youtube into .mp3 format using the
 Screenshots
 -------------
 
-![Screenshot](#screenshots/ss1.png)
+![Screenshot](https://raw.githubusercontent.com/Justin417/youtube-dl-web-interface/master/screenshots/ss1.png)
 
 > **Required Software**
 
