@@ -29,7 +29,7 @@ echo "Operation completed successfully.";
 ?>
 </div>
 <p>
-<?php 
+<?php
 
 echo "File saved as:";
 
@@ -40,10 +40,12 @@ echo "$output1";
 
 echo exec("mv *.mp3 /home/cherrymusic/music/ 2>&1", $output2);
 echo "Moving files...";
-echo "$output2"; 
+echo "$output2";
 
-?> 
+?>
 </p>
 <p><img src="dl.png"></p>
+<h3>Please click below to download another song.</h3>
+<p><a href="index.html">⇐ Return</a></p>
 </body>
 </html>
