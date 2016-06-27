@@ -20,11 +20,11 @@ Screenshots
 > - FFMPEG
 
 How to use:
-1. Download and upload to a server running PHP.
-2. Use the "chown" command to give the webserver write access to the directory. This can be done with:
+- Download and upload to a server running PHP.
+-  Use the "chown" command to give the webserver write access to the directory. This can be done with:
 ```
 sudo chown -R www-data /var/www/where_you_installed_yt_dl
 ```
 (Please note that the "www-data" user varies depending on your operating system and webserver)
 
-3. Change the directory which the .mp3 file is moved. This part is found in dl.php on line 41. Simply change the directory to fit your needs on your local system. Again, ensure the webserver has write permissions to the folder. 
+- Change the directory which the .mp3 file is moved. This part is found in dl.php on line 41. Simply change the directory to fit your needs on your local system. Again, ensure the webserver has write permissions to the folder. 
